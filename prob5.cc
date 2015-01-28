@@ -1,3 +1,11 @@
+/*
+   Project Euler Problem 5:
+   What is the smallest positive number that is evenly divisible
+   by all of the numbers from 1 to 20?
+
+   Marcus Yeagle - marcusnyeagle@gmail.com
+*/
+
 #include <iostream>
 
 using namespace std;
@@ -10,7 +18,7 @@ int main(){
 	return 0;
 }
 
-// This function checks whether an integer is divisible by all integers up to j
+// This function checks whether an integer is divisible by all integers up to 20
 // If it is divisible for all ints then it prints out the original test integer
 // and returns true
 //

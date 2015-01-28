@@ -1,3 +1,8 @@
+/* Find the largest palindrome made from the product of two 3-digit numbers.
+ 
+   Marcus Yeagle - marcusnyeagle@gmail.com
+*/
+
 #include <iostream>
 
 using namespace std; 
