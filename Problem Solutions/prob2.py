@@ -1,7 +1,7 @@
 # By considering the terms in the Fibonacci sequence whose values 
 # do not exceed four million, find the sum of the even-valued terms.
 #
-# Marcus Yeagle - marcusnyeagle@gmail.com
+# Marcus Yeagle - marcus.yeagle@gmail.com
 
 a, b = 0, 1
 sum = 0
