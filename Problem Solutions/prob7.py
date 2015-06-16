@@ -10,7 +10,6 @@ def is_prime(n, primes):
 		
 	primes.append(n)
 
-	
 primes = [2]
 i = 3 
 
