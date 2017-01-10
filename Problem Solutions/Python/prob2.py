@@ -1,12 +1,8 @@
-# Generate Fibo. 
-s, x , y = 0, 1, 2
-fibs = [x, y]
-for i in xrange(4000000):
-	s = x + y
-	print s
-	x = y
-	y = s
-	if (s%2 == 0): 
-		fibs.append(s) 
-del fibs[1]
-print (sum(fibs))
+# Sum all even Fibonacci Numbers less than 4 Million 
+s, x, y = 0, 0, 1
+while x < 4000000:
+	x, y = y, x+y
+	if (x%2 == 0):
+		s += x
+
+print(s)
